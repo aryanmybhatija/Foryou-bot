@@ -33,7 +33,7 @@
     },    
     "FREEMIUM_LIMIT": {
       "description": "Batch size for free users",
-      "value": "0",
+      "value": "10",
       "required": true
     },
     "PREMIUM_LIMIT": {
@@ -67,7 +67,7 @@
     "SUDO_USERS": {
       "description": "Other Admins' IDs (optional)",
       "value": "6890400066",
-      "required": false
+      "required": true
     },
     "CHANNEL_ID": {
       "description": "Enter Channel ID (-100) and make bot admin there",
